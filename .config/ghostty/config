@@ -1,0 +1,22 @@
+# Font
+font-family = Victor Mono
+font-family = Spoqa Han Sans Neo
+font-size = 14
+
+# Theme
+theme = Dracula
+
+# Cursor (override theme defaults)
+cursor-style = block
+cursor-style-blink = true
+cursor-color = #ff79c6
+
+# Window
+background-image = /Users/sooy/Pictures/terminal-bg.png
+background-image-opacity = 1.0
+background-opacity = 0.92
+window-padding-x = 16
+window-padding-y = 12
+
+# Misc
+shell-integration = zsh
