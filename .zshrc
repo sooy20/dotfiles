@@ -58,3 +58,5 @@ export PATH="/opt/homebrew/bin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# API 키는 여기에 직접 넣지 말 것! ~/.env.secret 파일에 별도 보관
+# source ~/.env.secret
