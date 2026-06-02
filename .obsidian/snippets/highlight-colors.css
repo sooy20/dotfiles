@@ -1,43 +1,49 @@
 /* =====================
    형광펜 색상 커스텀
-   사용법:
-   ==텍스트==         → 기본 (노란색)
-   <mark class="purple">텍스트</mark>   → 보라
-   <mark class="pink">텍스트</mark>     → 핑크
-   <mark class="blue">텍스트</mark>     → 블루
-   <mark class="green">텍스트</mark>   → 민트
-   <mark class="red">텍스트</mark>     → 레드
+   ==텍스트==                           → 파스텔 라벤더 (기본)
+   <mark class="pink">텍스트</mark>     → 파스텔 핑크
+   <mark class="blue">텍스트</mark>     → 파스텔 블루
+   <mark class="mint">텍스트</mark>     → 파스텔 민트
+   <mark class="peach">텍스트</mark>    → 파스텔 피치
    ===================== */
 
-/* 기본 형광펜 → 보라로 오버라이드 */
-mark {
-  background-color: #bd93f9;
-  color: #1e1e2e;
+/* 기본 ==형광펜== → 파스텔 라벤더 */
+mark,
+.markdown-rendered mark,
+.markdown-preview-view mark,
+.cm-s-obsidian span.cm-highlight,
+.is-live-preview .cm-highlight,
+.cm-line .cm-highlight {
+  background-color: #d8b4fe !important;
+  color: #2d1b69 !important;
   border-radius: 3px;
-  padding: 0 2px;
+  padding: 0 3px;
 }
 
-mark.purple {
-  background-color: #bd93f9;
-  color: #1e1e2e;
+mark.pink,
+.markdown-rendered mark.pink,
+.markdown-preview-view mark.pink {
+  background-color: #fbcfe8 !important;
+  color: #6b2142 !important;
 }
 
-mark.pink {
-  background-color: #ff79c6;
-  color: #1e1e2e;
+mark.blue,
+.markdown-rendered mark.blue,
+.markdown-preview-view mark.blue {
+  background-color: #bae6fd !important;
+  color: #0c3547 !important;
 }
 
-mark.blue {
-  background-color: #8be9fd;
-  color: #1e1e2e;
+mark.mint,
+.markdown-rendered mark.mint,
+.markdown-preview-view mark.mint {
+  background-color: #a7f3d0 !important;
+  color: #064e3b !important;
 }
 
-mark.green {
-  background-color: #50fa7b;
-  color: #1e1e2e;
-}
-
-mark.red {
-  background-color: #ff5555;
-  color: #f8f8f2;
+mark.peach,
+.markdown-rendered mark.peach,
+.markdown-preview-view mark.peach {
+  background-color: #fed7aa !important;
+  color: #7c2d12 !important;
 }
